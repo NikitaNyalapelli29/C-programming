@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main ()
+{
+    // DIFFERENCIATE RUPEES AND PAISA FROM TOTAL MONEY
+    int rupees,paisa;
+    float money;
+
+    printf("Enter money ");
+    scanf("%f",&money);
+    rupees=money;
+    printf("Total rupees is :%d\n",rupees);
+    paisa=(money-rupees)*100;
+    printf("Total paisa is :%d\n",paisa);
